@@ -23,7 +23,7 @@ function readOutLoad(message){
     speech.rate=.8;
     speech.text='I dont know, what you are speaking'
     if(message.includes('tell me about Athul')||message.includes('tell me about Abdul')||message.includes('tell me about Adil')||message.includes('tell me about Atul')){
-        speech.text='Athul is final year engineering student from Thrissur, kerala. He is certified full stack developer. He is more interested in front end web development especially with react. for more details go to engineer athul dot github dot i o slash portfolio.';
+        speech.text='Athul is final year engineering student from Thrissur, kerala. He is certified full stack developer. He is more interested in front end web development especially with react. for more details visit w w w dot athul dot live.';
         talkDiv.textContent="tell me about Athul";
     }
     if(message.includes('qualification')){
